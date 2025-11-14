@@ -1,0 +1,27 @@
+.container {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(26, 59, 59);
+  color: black;
+  text-align: center;
+}
+#num {
+  padding: 20px;
+  background-color: rgb(78, 76, 72);
+  border: 1px solid black;
+  color: white;
+}
+#count-btn {
+  margin-top: 20px;
+
+  padding: 10px 5px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#reset-btn {
+  margin-top: 20px;
+  padding: 10px 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
