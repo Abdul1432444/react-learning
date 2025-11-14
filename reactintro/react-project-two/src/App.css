@@ -1,5 +1,6 @@
-div {
-  font-size: 4rem;
-  color: rebeccapurple;
-  font-weight: 400;
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
