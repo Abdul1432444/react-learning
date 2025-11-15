@@ -4,6 +4,7 @@ import "./Usercard.css";
 const Usercard = (props) => {
   return (
     <div className="card">
+      {props.children}
       <p className="card-name">{props.name}</p>
       <img src={props.image} alt={props.name} />
       <p className="description">
