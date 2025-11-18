@@ -8,7 +8,7 @@ const App = () => {
     <div>
       <Card title="card 1" name={name} setName={setName} />
       <Card title="card 2" name={name} setName={setName} />
-      <p>Here is the data of child{name}</p>
+      {/* <p>Here is the data of child{name}</p> */}
     </div>
   );
 };
